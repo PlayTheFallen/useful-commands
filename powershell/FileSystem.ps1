@@ -8,4 +8,4 @@ Get-ChildItem -Recurse | { $_.PSIsContainer }
 Get-ChildItem -Recurse -Exclude *.meta
 
 # Select an object name from a result (or multiple)
-Get ChildItem | Select-Object FullName
+Get-ChildItem | Select-Object FullName
